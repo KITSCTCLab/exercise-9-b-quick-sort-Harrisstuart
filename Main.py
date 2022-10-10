@@ -4,7 +4,7 @@ from typing import List
 def partition(arr,low,high):
    i = ( low-1 )
    pivot = arr[high] # pivot element
-   for j in range(low , high)
+   for j in range(low , high):
       # If current element is smaller
       if arr[j] <= pivot:
          # increment
