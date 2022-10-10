@@ -1,7 +1,7 @@
 from typing import List
 
 # divide function
-def partition(arr,low,high)
+def partition(arr,low,high):
    i = ( low-1 )
    pivot = arr[high] # pivot element
    for j in range(low , high)
